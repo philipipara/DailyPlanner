@@ -1,0 +1,16 @@
+h1 {
+   text-align: center;
+   color: teal;
+   text-shadow: black;
+}
+
+p {
+    text-align: center;
+}
+
+.btn  {
+    
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
