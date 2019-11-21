@@ -1,7 +1,6 @@
 h1 {
    text-align: center;
-   color: teal;
-   text-shadow: black;
+   color: rgb(0, 92, 128);
 }
 
 p {
@@ -14,3 +13,9 @@ p {
     margin-bottom: 15px;
 
 }
+
+.input {
+
+    min-width: 100%;
+}
+
