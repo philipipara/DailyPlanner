@@ -15,6 +15,8 @@
 <body>
     <div class = "jumbotron">
       <h1>Work Daily Planner</h1>
+      <P>A working planner to plan our your day</P>
+      <p id="currentDay"></p>
       
     </div>
     
@@ -24,10 +26,10 @@
             <h2 class = "time">9:00 am</h2>
         </div>
         <div class = "col-md-8 bg-secondary mb-1 p-3">
-                <textarea></textarea>
+                <textarea type= "text" id = "task"></textarea>
         </div>
             <div class = "col-md-1 bg-info mb-1 p-3">
-              <button type="button" class="btn btn-primary">Save</button>
+              <button type="button" class="btn btn-primary" id = "saveBtn">Save</button>
             </div>
     </div>
 
@@ -60,7 +62,7 @@
         <h2 class = "time">12:00 pm</h2>
          </div>
          <div class = "col-md-8 bg-secondary p-3 mb-1">
-                <textarea input="disabled"></textarea>
+                <textarea></textarea>
             </div>
          <div class = "col-md-1 bg-info p-3 mb-1">
              <button type="button" class="btn btn-primary">Save</button>
@@ -104,13 +106,13 @@
     </div>
 
     <div class = "row">
-        <div class = "col-md-1 offset-md-1 rounded bg-danger p-3 mb-1">
+        <div class = "col-md-1 offset-md-1 bg-danger p-3 mb-1">
             <h2 class ="time">4:00 pm</h2>
              </div>
-        <div class = "col-md-8 rounded bg-secondary p-3 mb-1">
+        <div class = "col-md-8 bg-secondary p-3 mb-1">
                 <textarea></textarea>
             </div>
-        <div class = "col-md-1 rounded bg-info p-3 mb-1">
+        <div class = "col-md-1 bg-info p-3 mb-1">
                 <button type="button" class="btn btn-primary">Save</button>
              </div>
     </div>
