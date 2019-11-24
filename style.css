@@ -3,12 +3,8 @@ h1 {
    color: rgb(0, 92, 128);
 }
 
-p {
-    text-align: center;
-}
-
 .btn  {
-    
+
     margin-top: 25px;
     margin-bottom: 15px;
 
@@ -20,5 +16,18 @@ textarea {
     max-height: 5rem;
     background-color: #6C757D;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+
+p {
+    text-align: center;
+}
